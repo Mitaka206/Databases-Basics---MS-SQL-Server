@@ -9,3 +9,7 @@ CREATE TABLE People (
 	Biography NVARCHAR(MAX) NOT NULL
 	
 )
+
+DROP TABLE People
+
+SELECT * FROM People
