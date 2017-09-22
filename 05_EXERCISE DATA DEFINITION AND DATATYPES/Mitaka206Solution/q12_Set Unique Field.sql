@@ -1,0 +1,5 @@
+ALTER TABLE Users
+ADD CONSTRAINT UQ_Username UNIQUE(Username)
+
+ALTER TABLE Users
+ADD CONSTRAINT CH_UsernameLen CHECK (LEN(Username) >= 3)
