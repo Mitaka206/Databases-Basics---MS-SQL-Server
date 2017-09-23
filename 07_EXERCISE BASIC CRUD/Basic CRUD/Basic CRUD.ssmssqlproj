@@ -19,11 +19,95 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="SQLQuery1.sql">
+        <FileNode Name="Diablo-Database.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>Diablo-Database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Geography-Database.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Geography-Database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LAB test.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LAB test.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p2_Find All Information About Departments.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p2_Find All Information About Departments.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p3_Find all Department Names.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p3_Find all Department Names.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p4_Find Salary of Each Employee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p4_Find Salary of Each Employee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p5_Find Full Name of Each Employee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p5_Find Full Name of Each Employee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p6_Find Email Address of Each Employee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p6_Find Email Address of Each Employee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p7_Find All Different Employee’s Salaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p7_Find All Different Employee’s Salaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p8_Find all Information About Employees.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p8_Find all Information About Employees.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p9_Find Names of All Employees by Salary in Range.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p9_Find Names of All Employees by Salary in Range.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q10_Find Names of All Employees.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q10_Find Names of All Employees.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q11_Find All Employees Without Manager.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q11_Find All Employees Without Manager.sql</FullPath>
+        </FileNode>
+        <FileNode Name="q12_Find All Employees with Salary More Than.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>q12_Find All Employees with Salary More Than.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SoftUni-Database.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SoftUni-Database.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

@@ -1,0 +1,3 @@
+SELECT FirstName, LastName, * FROM Employees
+WHERE JobTitle NOT IN('Engineering Manager', 'Marketing Manager', 'Human Resources Manager', 'Information Services Manager', 'Network Manager', 'Production Control Manager', 'Finance Manager', 'Document Control Manager', 'Quality Assurance Manager', 'North American Sales Manager', 'Accounts Manager', 'Facilities Manager', 'Purchasing Manager', 'Pacific Sales Manager', 'European Sales Manager', 'Research and Development Manager')
+ORDER BY JobTitle
