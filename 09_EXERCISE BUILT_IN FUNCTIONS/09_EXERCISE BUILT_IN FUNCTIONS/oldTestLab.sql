@@ -51,3 +51,37 @@ SELECT AlbumId
   SELECT TrackId, Name 
 	FROM Track
    WHERE DATALENGTH(Name) <> DATALENGTH(LTRIM(RTRIM(Name)))
+
+----------------------------------------------------------------------------------
+
+USE SoftUni
+
+   SELECT TOP (5) STUFF(FirstName, 1, 0, 'Hajji '), LastName 
+    FROM Employees
+ORDER BY HireDate
+
+----------------------------------------------------------------------------------
+
+--CATST TEST
+SELECT RIGHT('000000000000000000' + CAST(25256 AS nvarchar), 10)
+
+------------
+
+--FORMAT TEST
+SELECT FORMAT(25256, 'd10') -- SLOW
+
+----------------------------------------------------------------------------------
+
+SELECT FirstName, LastName FROM Employees
+--WHERE LEFT(FirstName, 2) = 'Th' -- FIRST TWO LET?ERS
+WHERE RIGHT(FirstName, 2) = 'Th' -- FIRST TWO LET?ERS
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+--MATH FUNCTIONS
+
+USE Demo
+
+SELECT *, (A * H)/2 AS AREA FROM Triangles2
+
+
