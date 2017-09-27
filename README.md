@@ -6,9 +6,8 @@
 <td>
 <div align="right"><img src="http://media.bestofmicro.com/K/L/625413/gallery/3157.SQLServerNoVersion_6C304F80_w_600.png" width = "400"></div>
 </td></tr>
-<td>
+<table>
+
 <ul>
 	<li></li>
 </ul>
-</td>
-<table>
