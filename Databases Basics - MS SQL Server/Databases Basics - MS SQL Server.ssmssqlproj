@@ -19,23 +19,29 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="05_EXERCISE DATA DEFINITION AND DATATYPES.sql">
+        <FileNode Name="02_EXERCISE DATA DEFINITION AND DATATYPES.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>05_EXERCISE DATA DEFINITION AND DATATYPES.sql</FullPath>
+          <FullPath>02_EXERCISE DATA DEFINITION AND DATATYPES.sql</FullPath>
         </FileNode>
-        <FileNode Name="07_EXERCISE BASIC CRUD.sql">
+        <FileNode Name="03_EXERCISE BASIC CRUD.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>07_EXERCISE BASIC CRUD.sql</FullPath>
+          <FullPath>03_EXERCISE BASIC CRUD.sql</FullPath>
         </FileNode>
-        <FileNode Name="09_EXERCISE BUILT_IN FUNCTIONS.sql">
+        <FileNode Name="04_EXERCISE BUILT_IN FUNCTIONS.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>09_EXERCISE BUILT_IN FUNCTIONS.sql</FullPath>
+          <FullPath>04_EXERCISE BUILT_IN FUNCTIONS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_EXERCISE DATA AGGREGATION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_EXERCISE DATA AGGREGATION.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
