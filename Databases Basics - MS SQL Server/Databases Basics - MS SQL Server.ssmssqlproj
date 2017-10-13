@@ -43,6 +43,18 @@
           <AssociatedConnUserName />
           <FullPath>05_EXERCISE DATA AGGREGATION.sql</FullPath>
         </FileNode>
+        <FileNode Name="06_EXERCISE TABLE RELATIONS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06_EXERCISE TABLE RELATIONS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_EXERCISE SUBQUERIES AND JOINS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NNLV767\SQLEXPRESS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NNLV767\SQLEXPRESS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>07_EXERCISE SUBQUERIES AND JOINS.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
