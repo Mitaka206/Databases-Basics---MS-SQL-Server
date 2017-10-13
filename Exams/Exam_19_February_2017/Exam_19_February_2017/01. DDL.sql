@@ -1,6 +1,5 @@
 CREATE DATABASE Bakery
 
-USE Bakery
 
 CREATE TABLE Countries(
 	Id INT PRIMARY KEY IDENTITY(1,1),
@@ -13,27 +12,27 @@ CREATE TABLE Customers(
     LastName VARCHAR(25),
     Gender CHAR(1),
     Age INT ,
-    PhoneNumber NVARCHAR(10),
+    PhoneNumber VARCHAR(10),
     CountryId INT,
 
 	CONSTRAINT CH_Gender CHECK(Gender = 'M' OR Gender = 'F'),
-	CONSTRAINT FK_CustomersCountries FOREIGN KEY (CountryId) REFERENCES Countries(Id)
+	CONSTRAINT FK_Customers_Countries FOREIGN KEY (CountryId) REFERENCES Countries(Id)
 )
 
 CREATE TABLE Distributors(
 	Id INT PRIMARY KEY IDENTITY(1,1),
     Name VARCHAR(25) UNIQUE,
-    AddressText NVARCHAR(30),
-    Summary NVARCHAR(200),
+    AddressText VARCHAR(30),
+    Summary VARCHAR(200),
     CountryId INT,
 
-	CONSTRAINT FK_DistributorsCoutries FOREIGN KEY (CountryId) REFERENCES Countries(Id)
+	CONSTRAINT FK_Distributors_Coutries FOREIGN KEY (CountryId) REFERENCES Countries(Id)
 )
 
 CREATE TABLE Ingredients(
 	Id INT PRIMARY KEY IDENTITY(1,1),
 	Name NVARCHAR(30),
-	Description NVARCHAR(200),
+	Description VARCHAR(200),
 	OriginCountryId INT,
 	DistributorId INT,
 
@@ -43,10 +42,10 @@ CREATE TABLE Ingredients(
 
 CREATE TABLE Products(
 	Id INT PRIMARY KEY IDENTITY (1,1),
-	Name NVARCHAR(25) UNIQUE,
-	Description NVARCHAR(250),
-	Recipe NVARCHAR(MAX),
-	Price DECIMAL(38,2) 
+	Name VARCHAR(25) UNIQUE,
+	Description VARCHAR(250),
+	Recipe VARCHAR(MAX),
+	Price DECIMAL(38,2), 
 
 	CONSTRAINT CH_Price CHECK (PRICE >= 0)
 )
@@ -61,9 +60,9 @@ CREATE TABLE ProductsIngredients(
 )
 
 CREATE TABLE Feedbacks(
-	Id INT PRIMARY KEY,
-	Description NVARCHAR(255),
-	Rate DECIMAL(10,2),
+	Id INT PRIMARY KEY IDENTITY (1,1),
+	Description VARCHAR(255),
+	Rate DECIMAL(2,0),
 	ProductId INT,
 	CustomerId INT,
 
